@@ -1,5 +1,3 @@
-
-
 class RoundRobin
   @@refKey = "THRESHOLD"
   @@byeMarker = "BYE"
@@ -167,9 +165,3 @@ class RoundRobin
 
 
 end
-
-
-teams = ['White Moose Knuckles','Waka Shame','Bone Crushers','Wasted Potential','Grapes of Wrath','Silly Nannies','Team Bagtag','Ice Cream Team','Ultimately Intoxicated']
-
-schedule = RoundRobin.new(teams,false,true)
-schedule.to_s
