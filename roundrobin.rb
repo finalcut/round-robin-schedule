@@ -142,7 +142,11 @@ class RoundRobin
     # print out the schedule
     @schedule.length.times do |i|
       puts "======================================================================"
-      puts "Week " + (i+1).to_s
+      if(@dh.length > i)
+        puts "Week " + (i+1).to_s + "\t\t\t[Double Header : " + @dh[i] + "]"
+      else
+        puts "Week " + (i+1).to_s
+      end
       puts "======================================================================"
       week = @schedule[i]
       week.length.times do |x|
@@ -156,9 +160,6 @@ class RoundRobin
           end
           puts "\n"
         end
-      end
-      if(@dh.length > i)
-        puts "\t" + "Double Header : " + @dh[i]
       end
     end
   end
