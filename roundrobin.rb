@@ -1,6 +1,6 @@
 class RoundRobin
-  @@refKey = "THRESHOLD"
-  @@byeMarker = "BYE"
+  @@REFKEY = "THRESHOLD"
+  @@BYEMARKER = "BYE"
   @replaceByesWithDoubleHeader
   @assignRefs
   @teams = []
@@ -24,12 +24,12 @@ class RoundRobin
 
 
     @teams.each do |team|
-      @refCount[@@refKey] = 1
+      @refCount[@@REFKEY] = 1
       @refCount[team] = 0
     end
 
     if(@teams.length % 2)
-      @teams << @@byeMarker
+      @teams << @@BYEMARKER
     end
 
     build_schedule
@@ -45,8 +45,8 @@ class RoundRobin
 
   def assign_refs(game,immuneTeam)
     @teams.each do |team|
-      if team != immuneTeam && team != @@byeMarker
-        if (not game.include?(team)) && (@refCount[team] < @refCount[@@refKey])
+      if team != immuneTeam && team != @@BYEMARKER
+        if (not game.include?(team)) && (@refCount[team] < @refCount[@@REFKEY])
           game[2] = team
           @refCount[team] += 1
           break
@@ -74,10 +74,10 @@ class RoundRobin
         week = @schedule[i]
         week.length.times do |x|
           game = week[x]
-          if(game[1]==@@byeMarker)
+          if(game[1]==@@BYEMARKER)
               home = game[0]
               @teams.each do |team|
-                if(team != home && team != @@byeMarker && !@dh.include?(team))
+                if(team != home && team != @@BYEMARKER && !@dh.include?(team))
                   game[1] = team
                   @dh << team
                   break
@@ -93,12 +93,12 @@ class RoundRobin
 
   def build_ref_schedule
     if @assignRefs
-      # figure out who is reffing what game.  Double header team and byeMarker can't ref
+      # figure out who is reffing what game.  Double header team and BYEMARKER can't ref
       @schedule.length.times do |i|
         week = @schedule[i]
 
         # team that can't be scheduled
-        immuneTeam = (@dh.count >= i) ? @dh[i] : @@byeMarker
+        immuneTeam = (@dh.count >= i) ? @dh[i] : @@BYEMARKER
 
         #looping over each game
         week.length.times do |x|
@@ -108,24 +108,24 @@ class RoundRobin
           # determine if every team is at the threshold, if so, increment threshold
            incrementThreshold = true
            @refCount.each do |key, value|
-              if key != @@refKey
-                if(value < @refCount[@@refKey])
+              if key != @@REFKEY
+                if(value < @refCount[@@REFKEY])
                   incrementThreshold = false
                   break
                 end
               end
            end
            if incrementThreshold
-             @refCount[@@refKey] += 1
+             @refCount[@@REFKEY] += 1
            end
 
-          if game.include? @@byeMarker
+          if game.include? @@BYEMARKER
             # skip this game; no ref needed
           else
             game = assign_refs(game,immuneTeam)
             if(game.length == 2) then
               # we dont have a ref and need to bump threshold and try again
-              @refCount[@@refKey] += 1
+              @refCount[@@REFKEY] += 1
               game = assign_refs(game,immuneTeam)
             end
 
@@ -153,8 +153,8 @@ class RoundRobin
         game = week[x]
         puts "\t" + "Game " + (x+1).to_s + ": " + game[0] + " -vs- " + game[1]
         if @assignRefs
-          if(game.include?(@@byeMarker))
-             puts "\n\t\t\t" + "Referee: NONE - " + @@byeMarker
+          if(game.include?(@@BYEMARKER))
+             puts "\n\t\t\t" + "Referee: NONE - " + @@BYEMARKER
           else
             puts  "\n\t\t\t" + "Referee: " + game[2]
           end
