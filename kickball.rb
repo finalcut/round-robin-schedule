@@ -35,15 +35,17 @@ end
 
 
 
-teams = ['White Moose Knuckles',
-      'Waka Shame',
-      'Bone Crushers',
-      'Wasted Potential',
+teams = ['Bone Crushers',
       'Grapes of Wrath',
-      'Silly Nannies',
-      'Team Bagtag',
+      'Grass Kickers',
       'Ice Cream Team',
-      'Ultimately Intoxicated']
+      'Ultimately Intoxicated',
+      'Wasted Potential',
+      'White Moose Knuckles',
+      'Balls Deep',
+      'Team BAGTAG',
+      'Holy Mother Kickers',
+      'Big Ballers']
 
 schedule = RoundRobin.new(teams,replaceByes,assignRefs)
 schedule.to_s
