@@ -3,6 +3,7 @@ class RoundRobin
   @@BYEMARKER = "BYE"
   @replaceByesWithDoubleHeader
   @assignRefs
+  @maxWeeks
   @teams = []
 
   @dh = [] #track double headers
@@ -10,10 +11,11 @@ class RoundRobin
 
   @schedule = []
 
-  def initialize(teams, replaceByesWithDoubleHeader=true, assignRefs=true)
+  def initialize(teams, replaceByesWithDoubleHeader=true, assignRefs=true, maxWeeks=0)
     @teams = teams
     @replaceByesWithDoubleHeader = replaceByesWithDoubleHeader
     @assignRefs = assignRefs
+    @maxWeeks = maxWeeks
 
     @refCount = {}
     @dh = []
@@ -28,7 +30,7 @@ class RoundRobin
       @refCount[team] = 0
     end
 
-    if(@teams.length % 2)
+    if(@teams.length % 2 != 0)
       @teams << @@BYEMARKER
     end
 
