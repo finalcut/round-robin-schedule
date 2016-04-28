@@ -36,6 +36,34 @@ class RoundRobin
 
   end
 
+  def to_s
+    # print out the schedule
+    @schedule.length.times do |i|
+      puts "======================================================================"
+      if(@dh.length > i)
+        puts "Week " + (i+1).to_s + "\t\t\t[Double Header : " + @dh[i] + "]"
+      else
+        puts "Week " + (i+1).to_s
+      end
+      puts "======================================================================"
+      week = @schedule[i]
+      week.length.times do |x|
+        game = week[x]
+        puts "\t" + "Game " + (x+1).to_s + ": " + game[0] + " -vs- " + game[1]
+        if @assignRefs
+          if(game.include?(@@BYEMARKER))
+             puts "\n\t\t\t" + "Referee: NONE - " + @@BYEMARKER
+          else
+            puts  "\n\t\t\t" + "Referee: " + game[2]
+          end
+          puts "\n"
+        end
+      end
+    end
+  end
+
+  private # all methods that follow will be made private: not accessible to outside objects
+
   def build_schedule
     build_round_robin
     build_double_headers
@@ -138,31 +166,6 @@ class RoundRobin
     end
   end
 
-  def to_s
-    # print out the schedule
-    @schedule.length.times do |i|
-      puts "======================================================================"
-      if(@dh.length > i)
-        puts "Week " + (i+1).to_s + "\t\t\t[Double Header : " + @dh[i] + "]"
-      else
-        puts "Week " + (i+1).to_s
-      end
-      puts "======================================================================"
-      week = @schedule[i]
-      week.length.times do |x|
-        game = week[x]
-        puts "\t" + "Game " + (x+1).to_s + ": " + game[0] + " -vs- " + game[1]
-        if @assignRefs
-          if(game.include?(@@BYEMARKER))
-             puts "\n\t\t\t" + "Referee: NONE - " + @@BYEMARKER
-          else
-            puts  "\n\t\t\t" + "Referee: " + game[2]
-          end
-          puts "\n"
-        end
-      end
-    end
-  end
 
 
 end
