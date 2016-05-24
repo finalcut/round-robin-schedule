@@ -194,16 +194,16 @@ class RoundRobin
         game[3] = field
         game[4] = startTime
 
-        startTimeIdx = startTimeIdx + 1
-        if(startTimeIdx >= @startTimes.length)
-          startTimeIdx = 0
-        end
-
-        if(startTimeIdx == 0)
-          fieldIdx = fieldIdx+1
-        end
+        fieldIdx = fieldIdx + 1
         if(fieldIdx >= @fields.length)
           fieldIdx = 0
+        end
+
+        if(fieldIdx == 0)
+          startTimeIdx = startTimeIdx+1
+        end
+        if(startTimeIdx >= @startTimes.length)
+          startTimeIdx = 0
         end
 
 

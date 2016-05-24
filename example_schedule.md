@@ -7,13 +7,13 @@ Field: Upper Start Time: 2:00PM
 
 			Referee: Balls Deep
 
-Field: Upper Start Time: 3:30PM
+Field: Lower Start Time: 2:00PM
 
 	Game 2: Balls Deep -vs- Bag Tag
 
 			Referee: Pitches Be Crazy
 
-Field: Lower Start Time: 2:00PM
+Field: Upper Start Time: 3:30PM
 
 	Game 3: Bonecrushers -vs- Wasted Potential
 
@@ -34,13 +34,13 @@ Field: Upper Start Time: 2:00PM
 
 			Referee: Ice Cream
 
-Field: Upper Start Time: 3:30PM
+Field: Lower Start Time: 2:00PM
 
 	Game 2: Balls Deep -vs- Wasted Potential
 
 			Referee: Bag Tag
 
-Field: Lower Start Time: 2:00PM
+Field: Upper Start Time: 3:30PM
 
 	Game 3: Bonecrushers -vs- Ice Cream
 
@@ -61,13 +61,13 @@ Field: Upper Start Time: 2:00PM
 
 			Referee: Balls Deep
 
-Field: Upper Start Time: 3:30PM
+Field: Lower Start Time: 2:00PM
 
 	Game 2: Balls Deep -vs- Ice Cream
 
 			Referee: Bonecrushers
 
-Field: Lower Start Time: 2:00PM
+Field: Upper Start Time: 3:30PM
 
 	Game 3: Bonecrushers -vs- Grapes of Wrath
 
@@ -88,13 +88,13 @@ Field: Upper Start Time: 2:00PM
 
 			Referee: Wasted Potential
 
-Field: Upper Start Time: 3:30PM
+Field: Lower Start Time: 2:00PM
 
 	Game 2: Balls Deep -vs- Grapes of Wrath
 
 			Referee: Bag Tag
 
-Field: Lower Start Time: 2:00PM
+Field: Upper Start Time: 3:30PM
 
 	Game 3: Bonecrushers -vs- White Moose Knuckle
 
@@ -115,13 +115,13 @@ Field: Upper Start Time: 2:00PM
 
 			Referee: Bonecrushers
 
-Field: Upper Start Time: 3:30PM
+Field: Lower Start Time: 2:00PM
 
 	Game 2: Balls Deep -vs- Bonecrushers
 
 			Referee: Grapes of Wrath
 
-Field: Lower Start Time: 2:00PM
+Field: Upper Start Time: 3:30PM
 
 	Game 3: Ice Cream -vs- Bag Tag
 
@@ -142,13 +142,13 @@ Field: Upper Start Time: 2:00PM
 
 			Referee: Bag Tag
 
-Field: Upper Start Time: 3:30PM
+Field: Lower Start Time: 2:00PM
 
 	Game 2: Balls Deep -vs- White Moose Knuckle
 
 			Referee: Pitches Be Crazy
 
-Field: Lower Start Time: 2:00PM
+Field: Upper Start Time: 3:30PM
 
 	Game 3: Grapes of Wrath -vs- Bag Tag
 
@@ -169,13 +169,13 @@ Field: Upper Start Time: 2:00PM
 
 			Referee: Grapes of Wrath
 
-Field: Upper Start Time: 3:30PM
+Field: Lower Start Time: 2:00PM
 
 	Game 2: Bonecrushers -vs- Bag Tag
 
 			Referee: Ice Cream
 
-Field: Lower Start Time: 2:00PM
+Field: Upper Start Time: 3:30PM
 
 	Game 3: Grapes of Wrath -vs- Wasted Potential
 
