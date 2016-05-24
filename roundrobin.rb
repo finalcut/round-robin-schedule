@@ -57,6 +57,7 @@ class RoundRobin
       week.length.times do |x|
         game = week[x]
         puts "Field: " + game[3] + " StartTime: " + game[4]
+        puts "\n"
         puts "\t" + "Game " + (x+1).to_s + ": " + game[0] + " -vs- " + game[1]
         if @assignRefs
           if(game.include?(@@BYEMARKER))
