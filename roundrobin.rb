@@ -56,7 +56,7 @@ class RoundRobin
       week = @schedule[i]
       week.length.times do |x|
         game = week[x]
-        puts "Field: " + game[3] + " StartTime: " + game[4]
+        puts "Field: " + game[3] + " Start Time: " + game[4]
         puts "\n"
         puts "\t" + "Game " + (x+1).to_s + ": " + game[0] + " -vs- " + game[1]
         if @assignRefs
