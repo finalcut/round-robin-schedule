@@ -5,14 +5,18 @@ class RoundRobin
   @assignRefs
   @maxWeeks
   @teams = []
+  @fields = []
+  @startTimes = []
 
   @dh = [] #track double headers
   @refCount = {} #track number of times a team refs
 
   @schedule = []
 
-  def initialize(teams, replaceByesWithDoubleHeader=true, assignRefs=true, maxWeeks=0)
+  def initialize(teams, fields, startTimes, replaceByesWithDoubleHeader=true, assignRefs=true, maxWeeks=0)
     @teams = teams
+    @fields = fields
+    @startTimes = startTimes
     @replaceByesWithDoubleHeader = replaceByesWithDoubleHeader
     @assignRefs = assignRefs
     @maxWeeks = maxWeeks
@@ -36,6 +40,7 @@ class RoundRobin
 
     build_schedule
 
+
   end
 
   def to_s
@@ -51,6 +56,7 @@ class RoundRobin
       week = @schedule[i]
       week.length.times do |x|
         game = week[x]
+        puts "Field: " + game[3] + " StartTime: " + game[4]
         puts "\t" + "Game " + (x+1).to_s + ": " + game[0] + " -vs- " + game[1]
         if @assignRefs
           if(game.include?(@@BYEMARKER))
@@ -70,6 +76,7 @@ class RoundRobin
     build_round_robin
     build_double_headers
     build_ref_schedule
+    organize_schedule
   end
 
 
@@ -168,6 +175,40 @@ class RoundRobin
     end
   end
 
+  def organize_schedule
+    fieldIdx = 0;
+    startTimeIdx = 0;
+
+    @schedule.length.times do |i|
+      week = @schedule[i]
+      fieldIdx = 0;
+      startTimeIdx = 0;
+
+      week.length.times do |x|
+        game = week[x]
+        puts game.inspect
+
+        field = @fields[fieldIdx]
+        startTime = @startTimes[startTimeIdx]
+
+        game[3] = field
+        game[4] = startTime
+        #puts game.inspect
+
+        startTimeIdx = startTimeIdx + 1
+        if(startTimeIdx >= @startTimes.length)
+          startTimeIdx = 0
+        end
+
+        if(startTimeIdx == 0)
+          fieldIdx = fieldIdx+1
+        end
+        if(fieldIdx >= @fields.length)
+          fieldIdx = 0
+        end
 
 
+      end
+    end
+  end
 end

@@ -1,297 +1,189 @@
+["Pitches Be Crazy", "White Moose Knuckle", "Balls Deep"]
+["Balls Deep", "Bag Tag", "Pitches Be Crazy"]
+["Bonecrushers", "Wasted Potential", "Grapes of Wrath"]
+["Grapes of Wrath", "Ice Cream", "Bonecrushers"]
+["Pitches Be Crazy", "Bag Tag", "Ice Cream"]
+["Balls Deep", "Wasted Potential", "Bag Tag"]
+["Bonecrushers", "Ice Cream", "Wasted Potential"]
+["Grapes of Wrath", "White Moose Knuckle", "Pitches Be Crazy"]
+["Pitches Be Crazy", "Wasted Potential", "Balls Deep"]
+["Balls Deep", "Ice Cream", "Bonecrushers"]
+["Bonecrushers", "Grapes of Wrath", "Ice Cream"]
+["Bag Tag", "White Moose Knuckle", "Grapes of Wrath"]
+["Pitches Be Crazy", "Ice Cream", "Wasted Potential"]
+["Balls Deep", "Grapes of Wrath", "Bag Tag"]
+["Bonecrushers", "White Moose Knuckle", "Pitches Be Crazy"]
+["Wasted Potential", "Bag Tag", "Balls Deep"]
+["Pitches Be Crazy", "Grapes of Wrath", "Bonecrushers"]
+["Balls Deep", "Bonecrushers", "Grapes of Wrath"]
+["Ice Cream", "Bag Tag", "Wasted Potential"]
+["Wasted Potential", "White Moose Knuckle", "Ice Cream"]
+["Pitches Be Crazy", "Bonecrushers", "Bag Tag"]
+["Balls Deep", "White Moose Knuckle", "Pitches Be Crazy"]
+["Grapes of Wrath", "Bag Tag", "Balls Deep"]
+["Ice Cream", "Wasted Potential", "Bonecrushers"]
+["Pitches Be Crazy", "Balls Deep", "Grapes of Wrath"]
+["Bonecrushers", "Bag Tag", "Ice Cream"]
+["Grapes of Wrath", "Wasted Potential", "Bag Tag"]
+["Ice Cream", "White Moose Knuckle", "Wasted Potential"]
 ======================================================================
-Week 1			[Double Header : Grapes of Wrath]
+Week 1
 ======================================================================
-	Game 1: Bone Crushers -vs- Grapes of Wrath
-
-			Referee: Grass Kickers
-
-	Game 2: Grapes of Wrath -vs- Big Ballers
-
-			Referee: Bone Crushers
-
-	Game 3: Grass Kickers -vs- Holy Mother Kickers
-
-			Referee: Ice Cream Team
-
-	Game 4: Ice Cream Team -vs- Team BAGTAG
-
-			Referee: Ultimately Intoxicated
-
-	Game 5: Ultimately Intoxicated -vs- Balls Deep
-
-			Referee: Wasted Potential
-
-	Game 6: Wasted Potential -vs- White Moose Knuckles
+Field: Upper StartTime: 2:00PM
+	Game 1: Pitches Be Crazy -vs- White Moose Knuckle
 
 			Referee: Balls Deep
 
-======================================================================
-Week 2			[Double Header : Bone Crushers]
-======================================================================
-	Game 1: Bone Crushers -vs- Big Ballers
+Field: Upper StartTime: 3:30PM
+	Game 2: Balls Deep -vs- Bag Tag
+
+			Referee: Pitches Be Crazy
+
+Field: Lower StartTime: 2:00PM
+	Game 3: Bonecrushers -vs- Wasted Potential
 
 			Referee: Grapes of Wrath
 
-	Game 2: Grapes of Wrath -vs- Holy Mother Kickers
+Field: Lower StartTime: 3:30PM
+	Game 4: Grapes of Wrath -vs- Ice Cream
 
-			Referee: White Moose Knuckles
-
-	Game 3: Grass Kickers -vs- Team BAGTAG
-
-			Referee: Holy Mother Kickers
-
-	Game 4: Ice Cream Team -vs- Balls Deep
-
-			Referee: Team BAGTAG
-
-	Game 5: Ultimately Intoxicated -vs- White Moose Knuckles
-
-			Referee: Big Ballers
-
-	Game 6: Wasted Potential -vs- Bone Crushers
-
-			Referee: Grapes of Wrath
+			Referee: Bonecrushers
 
 ======================================================================
-Week 3			[Double Header : Grass Kickers]
+Week 2
 ======================================================================
-	Game 1: Bone Crushers -vs- Holy Mother Kickers
+Field: Upper StartTime: 2:00PM
+	Game 1: Pitches Be Crazy -vs- Bag Tag
 
-			Referee: Ice Cream Team
+			Referee: Ice Cream
 
-	Game 2: Grapes of Wrath -vs- Team BAGTAG
+Field: Upper StartTime: 3:30PM
+	Game 2: Balls Deep -vs- Wasted Potential
 
-			Referee: Bone Crushers
+			Referee: Bag Tag
 
-	Game 3: Grass Kickers -vs- Balls Deep
-
-			Referee: Ultimately Intoxicated
-
-	Game 4: Ice Cream Team -vs- White Moose Knuckles
+Field: Lower StartTime: 2:00PM
+	Game 3: Bonecrushers -vs- Ice Cream
 
 			Referee: Wasted Potential
 
-	Game 5: Ultimately Intoxicated -vs- Wasted Potential
+Field: Lower StartTime: 3:30PM
+	Game 4: Grapes of Wrath -vs- White Moose Knuckle
 
-			Referee: White Moose Knuckles
+			Referee: Pitches Be Crazy
 
-	Game 6: Big Ballers -vs- Grass Kickers
+======================================================================
+Week 3
+======================================================================
+Field: Upper StartTime: 2:00PM
+	Game 1: Pitches Be Crazy -vs- Wasted Potential
 
 			Referee: Balls Deep
 
-======================================================================
-Week 4			[Double Header : Ice Cream Team]
-======================================================================
-	Game 1: Bone Crushers -vs- Team BAGTAG
+Field: Upper StartTime: 3:30PM
+	Game 2: Balls Deep -vs- Ice Cream
 
-			Referee: Grass Kickers
+			Referee: Bonecrushers
 
-	Game 2: Grapes of Wrath -vs- Balls Deep
+Field: Lower StartTime: 2:00PM
+	Game 3: Bonecrushers -vs- Grapes of Wrath
 
-			Referee: Team BAGTAG
+			Referee: Ice Cream
 
-	Game 3: Grass Kickers -vs- White Moose Knuckles
-
-			Referee: Holy Mother Kickers
-
-	Game 4: Ice Cream Team -vs- Wasted Potential
-
-			Referee: Big Ballers
-
-	Game 5: Ultimately Intoxicated -vs- Ice Cream Team
-
-			Referee: Bone Crushers
-
-	Game 6: Holy Mother Kickers -vs- Big Ballers
+Field: Lower StartTime: 3:30PM
+	Game 4: Bag Tag -vs- White Moose Knuckle
 
 			Referee: Grapes of Wrath
 
 ======================================================================
-Week 5			[Double Header : Ultimately Intoxicated]
+Week 4
 ======================================================================
-	Game 1: Bone Crushers -vs- Balls Deep
-
-			Referee: Grass Kickers
-
-	Game 2: Grapes of Wrath -vs- White Moose Knuckles
-
-			Referee: Ice Cream Team
-
-	Game 3: Grass Kickers -vs- Wasted Potential
-
-			Referee: White Moose Knuckles
-
-	Game 4: Ice Cream Team -vs- Ultimately Intoxicated
+Field: Upper StartTime: 2:00PM
+	Game 1: Pitches Be Crazy -vs- Ice Cream
 
 			Referee: Wasted Potential
 
-	Game 5: Team BAGTAG -vs- Big Ballers
+Field: Upper StartTime: 3:30PM
+	Game 2: Balls Deep -vs- Grapes of Wrath
+
+			Referee: Bag Tag
+
+Field: Lower StartTime: 2:00PM
+	Game 3: Bonecrushers -vs- White Moose Knuckle
+
+			Referee: Pitches Be Crazy
+
+Field: Lower StartTime: 3:30PM
+	Game 4: Wasted Potential -vs- Bag Tag
 
 			Referee: Balls Deep
 
-	Game 6: Holy Mother Kickers -vs- Ultimately Intoxicated
-
-			Referee: Team BAGTAG
-
 ======================================================================
-Week 6			[Double Header : Wasted Potential]
+Week 5
 ======================================================================
-	Game 1: Bone Crushers -vs- White Moose Knuckles
+Field: Upper StartTime: 2:00PM
+	Game 1: Pitches Be Crazy -vs- Grapes of Wrath
 
-			Referee: Ultimately Intoxicated
+			Referee: Bonecrushers
 
-	Game 2: Grapes of Wrath -vs- Wasted Potential
-
-			Referee: Holy Mother Kickers
-
-	Game 3: Grass Kickers -vs- Ultimately Intoxicated
-
-			Referee: Big Ballers
-
-	Game 4: Ice Cream Team -vs- Wasted Potential
-
-			Referee: Bone Crushers
-
-	Game 5: Balls Deep -vs- Big Ballers
+Field: Upper StartTime: 3:30PM
+	Game 2: Balls Deep -vs- Bonecrushers
 
 			Referee: Grapes of Wrath
 
-	Game 6: Team BAGTAG -vs- Holy Mother Kickers
-
-			Referee: Grass Kickers
-
-======================================================================
-Week 7			[Double Header : White Moose Knuckles]
-======================================================================
-	Game 1: Bone Crushers -vs- Wasted Potential
-
-			Referee: Ice Cream Team
-
-	Game 2: Grapes of Wrath -vs- Ultimately Intoxicated
+Field: Lower StartTime: 2:00PM
+	Game 3: Ice Cream -vs- Bag Tag
 
 			Referee: Wasted Potential
 
-	Game 3: Grass Kickers -vs- Ice Cream Team
+Field: Lower StartTime: 3:30PM
+	Game 4: Wasted Potential -vs- White Moose Knuckle
 
-			Referee: Ultimately Intoxicated
+			Referee: Ice Cream
 
-	Game 4: White Moose Knuckles -vs- Big Ballers
+======================================================================
+Week 6
+======================================================================
+Field: Upper StartTime: 2:00PM
+	Game 1: Pitches Be Crazy -vs- Bonecrushers
+
+			Referee: Bag Tag
+
+Field: Upper StartTime: 3:30PM
+	Game 2: Balls Deep -vs- White Moose Knuckle
+
+			Referee: Pitches Be Crazy
+
+Field: Lower StartTime: 2:00PM
+	Game 3: Grapes of Wrath -vs- Bag Tag
 
 			Referee: Balls Deep
 
-	Game 5: Balls Deep -vs- Holy Mother Kickers
+Field: Lower StartTime: 3:30PM
+	Game 4: Ice Cream -vs- Wasted Potential
 
-			Referee: Team BAGTAG
-
-	Game 6: Team BAGTAG -vs- White Moose Knuckles
-
-			Referee: Holy Mother Kickers
+			Referee: Bonecrushers
 
 ======================================================================
-Week 8			[Double Header : Balls Deep]
+Week 7
 ======================================================================
-	Game 1: Bone Crushers -vs- Ultimately Intoxicated
-
-			Referee: White Moose Knuckles
-
-	Game 2: Grapes of Wrath -vs- Ice Cream Team
-
-			Referee: Big Ballers
-
-	Game 3: Grass Kickers -vs- Balls Deep
-
-			Referee: Bone Crushers
-
-	Game 4: Wasted Potential -vs- Team BAGTAG
+Field: Upper StartTime: 2:00PM
+	Game 1: Pitches Be Crazy -vs- Balls Deep
 
 			Referee: Grapes of Wrath
 
-	Game 5: White Moose Knuckles -vs- Balls Deep
+Field: Upper StartTime: 3:30PM
+	Game 2: Bonecrushers -vs- Bag Tag
 
-			Referee: Grass Kickers
+			Referee: Ice Cream
 
-	Game 6: Holy Mother Kickers -vs- Big Ballers
+Field: Lower StartTime: 2:00PM
+	Game 3: Grapes of Wrath -vs- Wasted Potential
 
-			Referee: Ice Cream Team
+			Referee: Bag Tag
 
-======================================================================
-Week 9			[Double Header : Team BAGTAG]
-======================================================================
-	Game 1: Bone Crushers -vs- Ice Cream Team
-
-			Referee: Ultimately Intoxicated
-
-	Game 2: Grapes of Wrath -vs- Grass Kickers
+Field: Lower StartTime: 3:30PM
+	Game 4: Ice Cream -vs- White Moose Knuckle
 
 			Referee: Wasted Potential
-
-	Game 3: Ultimately Intoxicated -vs- Big Ballers
-
-			Referee: White Moose Knuckles
-
-	Game 4: Wasted Potential -vs- Balls Deep
-
-			Referee: Holy Mother Kickers
-
-	Game 5: White Moose Knuckles -vs- Team BAGTAG
-
-			Referee: Balls Deep
-
-	Game 6: Team BAGTAG -vs- Holy Mother Kickers
-
-			Referee: Big Ballers
-
-======================================================================
-Week 10			[Double Header : Holy Mother Kickers]
-======================================================================
-	Game 1: Bone Crushers -vs- Grass Kickers
-
-			Referee: Team BAGTAG
-
-	Game 2: Grapes of Wrath -vs- Holy Mother Kickers
-
-			Referee: Bone Crushers
-
-	Game 3: Ice Cream Team -vs- Team BAGTAG
-
-			Referee: Grapes of Wrath
-
-	Game 4: Ultimately Intoxicated -vs- Big Ballers
-
-			Referee: Grass Kickers
-
-	Game 5: Wasted Potential -vs- Balls Deep
-
-			Referee: Ice Cream Team
-
-	Game 6: White Moose Knuckles -vs- Holy Mother Kickers
-
-			Referee: Ultimately Intoxicated
-
-======================================================================
-Week 11			[Double Header : Big Ballers]
-======================================================================
-	Game 1: Bone Crushers -vs- Grapes of Wrath
-
-			Referee: Wasted Potential
-
-	Game 2: Grass Kickers -vs- Big Ballers
-
-			Referee: White Moose Knuckles
-
-	Game 3: Ice Cream Team -vs- Balls Deep
-
-			Referee: Team BAGTAG
-
-	Game 4: Ultimately Intoxicated -vs- Holy Mother Kickers
-
-			Referee: Balls Deep
-
-	Game 5: Wasted Potential -vs- White Moose Knuckles
-
-			Referee: Holy Mother Kickers
-
-	Game 6: Team BAGTAG -vs- Big Ballers
-
-			Referee: Bone Crushers
 

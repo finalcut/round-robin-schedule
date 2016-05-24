@@ -35,17 +35,18 @@ end
 
 
 
-teams = ['Bone Crushers',
-      'Grapes of Wrath',
-      'Grass Kickers',
-      'Ice Cream Team',
-      'Ultimately Intoxicated',
-      'Wasted Potential',
-      'White Moose Knuckles',
+teams = ['Pitches Be Crazy',
       'Balls Deep',
-      'Team BAGTAG',
-      'Holy Mother Kickers',
-      'Big Ballers']
+      'Bonecrushers',
+      'Grapes of Wrath',
+      'Ice Cream',
+      'Wasted Potential',
+      'Bag Tag',
+      'White Moose Knuckle']
 
-schedule = RoundRobin.new(teams,replaceByes,assignRefs)
+fields = ['Upper','Lower']
+
+startTimes = ['2:00PM','3:30PM']
+
+schedule = RoundRobin.new(teams,fields,startTimes,replaceByes,assignRefs)
 schedule.to_s
