@@ -186,14 +186,12 @@ class RoundRobin
 
       week.length.times do |x|
         game = week[x]
-        puts game.inspect
 
         field = @fields[fieldIdx]
         startTime = @startTimes[startTimeIdx]
 
         game[3] = field
         game[4] = startTime
-        #puts game.inspect
 
         startTimeIdx = startTimeIdx + 1
         if(startTimeIdx >= @startTimes.length)
